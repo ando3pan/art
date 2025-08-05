@@ -1,0 +1,18 @@
+body { font-family: Arial, sans-serif; margin:0; background:#fff; color:#333; text-align:center; }
+header { padding:2rem 1rem; border-bottom:1px solid #ddd; }
+.logo-section { display:flex; justify-content:center; align-items:center; gap:2rem; }
+.logo { max-width:250px; opacity:0; }
+.side-icon { max-width:80px; }
+nav { margin:1.5rem 0; }
+nav button { background:#a06; color:#fff; border:none; border-radius:8px; padding:0.7rem 1.5rem; margin:0 0.5rem; cursor:pointer; font-size:1rem; transition:0.3s; }
+nav button:hover { background:#c08; }
+.social-icons { display:flex; justify-content:center; gap:1.5rem; margin:2rem 0; }
+.social-icons a { display:inline-block; border:1px solid #aaa; border-radius:8px; padding:0.5rem; transition:0.3s; }
+.social-icons a:hover { border-color:#a06; }
+section { padding:3rem 1rem; }
+.gallery { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:1.5rem; max-width:1000px; margin:auto; }
+.gallery img { width:100%; border-radius:10px; transition:0.3s; cursor:pointer; }
+.gallery img:hover { transform:scale(1.03); }
+#lightbox { position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.8); display:none; justify-content:center; align-items:center; z-index:1000; }
+#lightbox.active { display:flex; }
+#lightbox img { max-width:90%; max-height:90%; border-radius:10px; }
