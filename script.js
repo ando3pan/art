@@ -1,4 +1,3 @@
-function scrollToSection(id){document.getElementById(id).scrollIntoView({behavior:'smooth'});} 
 document.addEventListener('DOMContentLoaded',()=>{
  const images=document.querySelectorAll('.gallery img');
  const lightbox=document.createElement('div');lightbox.id='lightbox';document.body.appendChild(lightbox);
