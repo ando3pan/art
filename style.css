@@ -3,7 +3,12 @@ header { padding:2rem 1rem; border-bottom:1px solid #ddd; }
 .logo-section { display:flex; justify-content:center; align-items:center; gap:2rem; }
 .logo { max-width:250px; opacity:0; }
 .side-icon { max-width:80px; }
-nav { margin:1.5rem 0; }
+<nav>
+  <a href="index.html"><button>Illustrations</button></a>
+  <a href="commissions.html"><button>Commissions</button></a>
+  <a href="tos.html"><button>ToS</button></a>
+</nav>
+
 nav button { 
   background: #fff;
   color: #666;
