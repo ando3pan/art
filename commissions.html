@@ -1,43 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>AndoPan Art - Commissions</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <meta name="description" content="Commission info, pricing, and examples." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
 </head>
 <body>
-  
 <header>
   <div class="logo-section">
-    <img src="assets/logo.png" alt="Logo" class="logo">
-    <!--<img src="assets/icon.png" alt="Side Icon" class="side-icon"> -->
+    <img src="assets/logo.png" alt="Logo" class="logo" />
+    <img src="assets/icon.png" alt="Side Icon" class="side-icon" />
   </div>
-  <nav>
-    <a href="index.html"><button>Illustrations</button></a>
-    <a href="commissions.html"><button>Commissions</button></a>
-    <a href="tos.html"><button>ToS</button></a>
+  <nav aria-label="Primary">
+    <a class="btn" href="index.html">Illustrations</a>
+    <a class="btn" href="commissions.html">Commissions</a>
+    <a class="btn" href="tos.html">ToS</a>
   </nav>
-  <div class="social-icons">
-    <!-- <a href="#"><img src="assets/twitter.svg" alt="Twitter"></a>
-    <a href="#"><img src="assets/instagram.svg" alt="Instagram"></a>
-    <a href="#"><img src="assets/patreon.svg" alt="Patreon"></a>
-    <a href="mailto:your@email.com"><img src="assets/email.svg" alt="Email"></a> -->
-  </div>
+  <div class="social-icons"></div>
 </header>
 
-  <main>
-    <section id="commissions">
-      <h2>Commissions</h2>
-      <p>Details about commissions, pricing, and examples go here.</p>
-      <div class="gallery">
-        <img src="assets/art1.jpg" alt="Sample Commission 1">
-        <img src="assets/art2.jpg" alt="Sample Commission 2">
-        <img src="assets/art3.jpg" alt="Sample Commission 3">
-      </div>
-    </section>
-  </main>
-  <script src="script.js"></script>
+<main>
+  <section id="commissions">
+    <h2>Commissions</h2>
+    <p>Details about commissions, pricing, and examples go here.</p>
+    <div class="gallery">
+      <img src="assets/art1.jpg" alt="Sample Commission 1" loading="lazy" decoding="async" />
+      <img src="assets/art2.jpg" alt="Sample Commission 2" loading="lazy" decoding="async" />
+      <img src="assets/art3.jpg" alt="Sample Commission 3" loading="lazy" decoding="async" />
+    </div>
+  </section>
+</main>
+
+<script src="script.js" defer></script>
 </body>
 </html>
